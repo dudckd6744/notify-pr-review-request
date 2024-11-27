@@ -4,7 +4,7 @@
 
 GitHub Actions to notify on Slack when a PR review is requested.
 
-<img src="https://user-images.githubusercontent.com/13075245/279234262-cbe5c159-e103-49eb-bf1f-b50116f98984.png" width="500" alt="intro">
+<img src="https://github.com/user-attachments/assets/e68ffed1-678e-4d16-92dd-555c2ffe3e3b" width="500" alt="intro">
 
 ## Usage
 
