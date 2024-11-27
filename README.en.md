@@ -28,9 +28,9 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - name: Notify PR Review
-        uses: dudckd6744/notify-pr-review-request@v1.0.0
+        uses: dudckd6744/notify-pr-review-request@v1.0.3
         with:
-          token: ${{ secrets.SLACK_CHANNEL }}
+          slackChannel: ${{ secrets.SLACK_CHANNEL }}
           slackBotToken: ${{ secrets.SLACK_BOT_TOKEN }}
 ```
 
