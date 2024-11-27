@@ -1,4 +1,4 @@
-name: 'Notify PR review'
+name: 'Notify PR review request'
 description: 'Notify PR review requests by sending a slack channel'
 branding:
   icon: "bell"
