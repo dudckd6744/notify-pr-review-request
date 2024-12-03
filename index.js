@@ -95,8 +95,6 @@ const sendSlack = ({repoName, labels, title, url}) => {
             }
         } = github;
 
-        const {login} = requestedReviewer;
-
         core.notice(`Sender: ${sender.login}, Receiver: ${login}, PR: ${prUrl}`);
         core.info(`'${sender.login}' requests a pr review for ${title}(${prUrl})`);
         core.info(`Fetching information about '${login}'...`);
