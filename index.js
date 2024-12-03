@@ -95,12 +95,6 @@ const sendSlack = ({repoName, labels, title, url}) => {
             }
         } = github;
 
-        if (!requestedReviewer) {
-            core.notice(`Failed: 'requested_reviewer' does not exist. Looks like you've requested a team review which is not yet supported. The team name is '${requestedTeam.name}'.`);
-
-            return;
-        }
-
         const {login} = requestedReviewer;
 
         core.notice(`Sender: ${sender.login}, Receiver: ${login}, PR: ${prUrl}`);
